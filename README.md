@@ -1,6 +1,6 @@
 ### complete work screen
 
-<!-- ![trendy_news](./image/trendy_news.png) -->
+![portfolio_web](./image/portfolio_web.png)
 
 # portfolio web-page Layout
 
