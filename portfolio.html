@@ -6,190 +6,11 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="/css/portfolio.css">
         <title>Portfolio</title>
-
-        <style>
-            :root {
-                --greyColor: rgba(0, 0, 0, 0.7);
-            }
-
-            h1, h2, h3, h4, h5, h6, body, html {
-                margin: 0;
-                padding: 0;
-            }
-            html, body {
-                height: 100%;
-            }
-            body {
-                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-                Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                background-color: #fff; /* f8ffff */
-            }
-            body {
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                grid-gap: 20px;
-                padding: 0px 0px 25px 50px;
-            }
-
-            .header {
-                margin-top: 25px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-            }
-            .header .header__title {
-                font-size: 28px;
-            }
-            .header__nav .header__list {
-                padding: 0;
-                margin: 0;
-                list-style: none;
-                display: grid;
-                grid-gap: 10px;
-                grid-template-columns: repeat(2, minmax(min-content, 1fr));
-                text-transform: uppercase;
-                font-weight: 600;
-                color: var(--greyColor);
-                font-size: 14px;
-            }
-            .header__list .header__list-item:first-child {
-                color: #bdc3c7;
-            }
-
-            .content {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                height: 100vh;
-            }
-            .content .content__title {
-                font-size: 86px;
-                text-transform: uppercase;
-            }
-            .content .content__text {
-                color: var(--greyColor);
-                font-size: 12px;
-            }
-            .content .view-more {
-                display: flex;
-                align-items: center;
-                margin-top: 50px;
-            }
-            .content .contact {
-                display: flex;
-                align-items: center;
-                margin-top: 220px;
-            }
-            .view-more .view-more__icon {
-                background-color: #D5D8DA;
-                width: 25px;
-                height: 25px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 50%;
-                margin-right: 15px;
-            }
-            .contact .contact__icon {
-                background-color: #D5D8DA;
-                width: 55px;
-                height: 55px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                border-radius: 50%;
-                margin-right: 15px;
-            }
-
-            .view-more__icon svg {
-                fill: #333;
-            }
-            .view-more .view-more__text {
-                text-transform: uppercase;
-                color: var(--greyColor);
-                font-size: 14px;
-            }
-            .contact .contact__text {
-                color: #b2b2b2;
-                font-size: 13px;
-            }
-
-            .items {
-                display: flex;
-                grid-template-columns: repeat(auto-fill, 1fr);
-                align-items: center;
-                height: 100%;
-                position: relative;
-            }
-
-            .items .item {
-                height: 100%;
-            }
-
-            .item .item__wrapper {
-                height: 100%;
-                border-left: 0.5px solid #ddd;
-            }
-            .item .item__wrapper {
-                display: grid;
-                grid-template-rows: 25% 6% 38% 30%; /* repeat(4, 1fr) */
-            }
-            .item .item__wrapper:first-child img {
-                margin-left: 1px;
-            }
-            .item img {
-                width: 100%;
-                height: 290px;
-            }
-
-            .item .item__pre-title {
-                font-weight: 300;
-                margin-bottom: 6px;
-                display: flex;
-                justify-content: flex-start;
-                align-self: flex-end;
-                padding-left: 20px;
-                font-size: 13px;
-                color: #bdc3c7;
-            }
-            .item .item__title {
-                font-weight: 500;
-                font-size: 17px;
-                padding-left: 20px;
-                color: #353535;
-            }
-            .item .item__number {
-                padding-left: 20px;
-                color: #5b5b5b;
-            }
-
-            .btns {
-                position: absolute;
-                top: 25px;
-                _padding-left: 20px;
-                display: grid;
-                grid-template-columns: 140px 50px;
-            }
-            .btns svg:first-child {
-                _margin-right: 10px;
-            }
-            .btns .btns__btn:first-child {
-                display: flex;
-                justify-self: center;
-                align-self: center;
-                fill: #8e8e8e;
-            }
-            .btns .btns__btn:last-child {
-                display: flex;
-                justify-content: flex-start;
-                align-self: center;
-            }
-        </style>
     </head>
     <body>
        <div class="colmun">
            <header class="header">
-               <h1 class="header__title">Muse</h1>
+               <h1 class="header__title">Muse<sup>®</sup></h1>
                <nav class="header__nav">
                    <ul class="header__list">
                        <li class="header__list-item">The best of</li>
@@ -230,18 +51,18 @@
            </article>
            <article class="item">
                 <div class="item__wrapper">
-                    <h4 class="item__pre-title">Make up</h4>
-                    <h3 class="item__title">Valary Mdeizi</h3>
-                    <img src="https://i.pinimg.com/564x/20/5e/29/205e29fec21faccbf3ff96eb7c7b3e90.jpg" alt="" class="item__image">
-                    <small class="item__number">01</small>
+                    <h4 class="item__pre-title">Video Art</h4>
+                    <h3 class="item__title">Tom Cruise</h3>
+                    <img src="https://i.pinimg.com/564x/fa/14/c7/fa14c7de3e79603253951b5c1c908874.jpg" alt="" class="item__image">
+                    <small class="item__number">02</small>
                 </div>
             </article>
             <article class="item">
                 <div class="item__wrapper">
-                    <h4 class="item__pre-title">Make up</h4>
-                    <h3 class="item__title">Valary Mdeizi</h3>
-                    <img src="https://i.pinimg.com/564x/20/5e/29/205e29fec21faccbf3ff96eb7c7b3e90.jpg" alt="" class="item__image">
-                    <small class="item__number">01</small>
+                    <h4 class="item__pre-title">News Photography</h4>
+                    <h3 class="item__title">Mel Gibson</h3>
+                    <img src="https://i.pinimg.com/564x/28/9a/ed/289aedb01c93daf2aeb16c9f8202f44f.jpg" alt="" class="item__image">
+                    <small class="item__number">03</small>
                 </div>
             </article>
            <article class="item">
@@ -258,10 +79,10 @@
                     </span>
                 </div>
                 <div class="item__wrapper">
-                    <h4 class="item__pre-title">Make up</h4>
-                    <h3 class="item__title">Valary Mdeizi</h3>
-                    <img src="https://i.pinimg.com/564x/17/1f/01/171f0180729d5b3884842b9be515d914.jpg" alt="" class="item__image">
-                    <small class="item__number">01</small>
+                    <h4 class="item__pre-title">Mobile UI</h4>
+                    <h3 class="item__title">Brad Pitt</h3>
+                    <img src="https://i.pinimg.com/564x/1e/92/39/1e92397bd4ea2d66e8ea55b8170b4414.jpg" alt="" class="item__image">
+                    <small class="item__number">04</small>
                 </div>
             </article>
        </section>
